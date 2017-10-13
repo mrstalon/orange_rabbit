@@ -1,14 +1,13 @@
 
-.rabbit-logo{
+.rabbit-logo {
     position: relative;
     left: 218px;
-    top: 3px;
+    top: 5px;
 }
-
-.rabbit-text{
+h1 {
     position: relative;
     left: 360px;
-    top: -122px;
+    top: -120px;
 }
 
 
@@ -22,150 +21,151 @@
     src: url('/fonts/StMarie-Thin.otf');
 }
 
-.rabbit-text-span-calibri{
+.font-calibri {
     font-family: Calibri;
-    color:  #ffb540;
+    color:  #FB9C06;
     font-size: 29pt;
     letter-spacing: normal;
 }
 
-.rabbit-text-span-bebas{
+.font-bebas {
     font-family: bebas;
     color: dimgray;
     font-size: 27pt;
     letter-spacing: 2px;
 }
 
-header{
+header {
     background-color: white;
-    top: 2px;
+    top: 0px;
     z-index: 2;
     position: fixed;
-    width: 1600px;
+    width: 100%;
     height: 125px;
     overflow: hidden;
     left: 152px;
 }
 
-.home-figure{
+.home-icon-container {
     left: -184px;
-    top: 6px;
+    top: 8px;
 }
 
-.home-span{
+.home-icon-container > a > span {
     top: 5px;
 }
 
-.about-image{
+.about-icon-container > a > img {
     left: 19px;
     position: relative;
 }
 
-.about-figure{
-    top: -90px;
+.about-icon-container {
+    top: -88px;
     left: -60px;
 }
 
-.about-span{
+.about-icon-container > a > span {
     position: relative;
     top: 6px;
     right: 0px;
 }
 
-.work-figure{
-    top: -188px;
+.work-icon-container {
+    top: -186px;
     left: 60px;
 }
 
-.work-span{
+.work-icon-container > a > span {
     position: relative;
     top: 5px;
     left: 3px;
 }
 
-.blog-span{
+
+.blog-icon-container > a > img {
+    left: 10px;
+    position: relative;
+}
+
+.blog-icon-container {
+    top: -282px;
+    left: 179px;
+}
+
+.blog-icon-container > a > span {
     top: 6px;
     left: 9px;
 }
 
-.blog-image{
-    position: relative;
-    left: 10px;
-}
-
-.blog-figure{
-    top: -284px;
-    left: 179px;
-}
-
-.contact-span{
+.contact-icon-container > a > span {
     top: 15px;
     left: 5px;
 }
 
-.contact-figure{
-    top: -386px;
+.contact-icon-container {
+    top: -384px;
     width: 80px;
     left: 307px;
 }
 
-.contact-image{
+.contact-icon-container > a > img {
     position: relative;
     left: 17px;
     top: 9px;
 }
 
-nav{
+nav {
     position: relative;
     left: 974px;
     top: -240px;
     height: 100px;
-    width: 600px;
+    width: 100%;
 }
 
-nav > figure > a{
+nav > figure > a {
      position: relative;
      top: 1px;
      text-decoration: none;
  }
 
 
-a > span{
+a > span {
     font-family: Calibri;
-    color: darkgray;
+    color: #9B9C9C;
     font-size: 17pt;
     position: relative;
     bottom: -31px;
 }
 
-main{
+main {
     left: 142px;
     top: 103px;
     position: relative;
-    width: fit-content;
+    width: 100%;
     height: 1688px;
     padding: 10px;
 }
 
-main > *{
+main > * {
     position: relative;
 }
 
-main > hr{
-    width: 1600px;
+main > hr {
+    width: 100%;
     top: -191px;
     left: -8px;
     color: lightgray;
     border-bottom: 1px solid lightgray;
 }
 
-.orange-image{
+main > img:first-child {
     left: -8px;
     top: 6px;
 }
 
-.first-orange-image-text{
-    color:  #ffb540;
+main > p:nth-child(2) {
+    color:  #FB9C06;
     position: relative;
     left: 243px;
     bottom: 306px;
@@ -173,35 +173,33 @@ main > hr{
     font-size: 29pt;
 }
 
-.second-orange-image-text{
+main > p:nth-child(3) {
     position: relative;
-    color: dimgray;
+    color: #6e6d6b;
     font-family: bebas;
     font-size: 29pt;
     left: 234px;
     bottom: 299px;
 }
 
-body{
-    max-width: 1700px;
+
+
+body {
+    max-width: 2000px;
 }
 
-header > nav > figure{
+header > nav > figure {
     position: relative;
     width: 60px;
     height: 83px;
     align-content: center;
 }
 
-header > nav > figure:hover{
+header > nav > figure:hover {
     background-color:  #ffb540;
 }
 
-main > div{
-    overflow: hidden;
-}
-
-main > div > p{
+main > div > p {
     font-size: 16px;
     font-family: Calibri;
     font-weight: 600;
@@ -211,12 +209,12 @@ main > div > p{
 
 }
 
-main > div > p > span{
+main > div > p > span {
     color:  #ffb540;
 }
 
 
-.div-with-p{
+main > div:nth-child(4) {
     top: -206px;
     left: 212px;
     overflow: hidden;
@@ -224,7 +222,8 @@ main > div > p > span{
     width: 1200px;
 }
 
-.first-p{
+
+main > div:nth-child(4) > p:first-child {
     position: relative;
     left: 1px;
     top: 0px;
@@ -233,7 +232,7 @@ main > div > p > span{
     overflow: hidden;
 }
 
-.first-p-link{
+main > div:nth-child(4) > a:nth-child(2) {
     position: relative;
     left: 175px;
     top: -10px;
@@ -244,7 +243,7 @@ main > div > p > span{
     font-family: Calibri;
 }
 
-.second-p{
+main > div:nth-child(4) > p:nth-child(3) {
     position: relative;
     left: 302px;
     bottom: 188px;
@@ -253,7 +252,7 @@ main > div > p > span{
     overflow: hidden;
 }
 
-.second-p-span{
+main > div:nth-child(4) > a:nth-child(4) {
     position: relative;
     left: 476px;
     top: -198px;
@@ -264,7 +263,7 @@ main > div > p > span{
     font-family: Calibri;
 }
 
-.third-p{
+main > div:nth-child(4) > p:nth-child(5) {
     position: relative;
     left: 601px;
     top: -376px;
@@ -273,7 +272,8 @@ main > div > p > span{
     width: 288.2px;
 }
 
-.third-p-link{
+
+main > div:nth-child(4) > a:nth-child(6) {
     position: relative;
     left: 776px;
     top: -387px;
@@ -284,7 +284,8 @@ main > div > p > span{
     font-family: Calibri;
 }
 
-.forth-p{
+
+main > div:nth-child(4) > p:nth-child(7) {
     position: relative;
     left: 902px;
     top: -564px;
@@ -293,7 +294,7 @@ main > div > p > span{
     width: 288.2px;
 }
 
-.forth-p-link{
+main > div:nth-child(4) > a:last-child {
     position: relative;
     left: 1076px;
     top: -575px;
@@ -304,11 +305,12 @@ main > div > p > span{
     font-family: Calibri;
 }
 
-figcaption{
+
+figcaption {
     font-family: Calibri;
 }
 
-.meet-the-team{
+h2:nth-child(6) {
     font-family: ST;
     color: #ffb540;
     text-decoration: #ffb540;
@@ -322,28 +324,34 @@ figcaption{
 }
 
 
-.meat-team-first{
+div:nth-child(7) {
     height: 500px;
     top: -217px;
     padding: 10px;
-    left: 140px;
+    left: 105px;
     width: 400px;
     overflow: hidden;
     float: none;
 }
 
-.hoof{
+div:nth-child(7) > p {
     font-family: Calibri;
     position: relative;
     top: -20px;
-    left: 96px;
+    left: 132px;
     font-size: 23px;
     font-weight: 400;
     width: fit-content;
     height: fit-content;
 }
 
-.hoof-fig-cap{
+
+div:nth-child(7) > p > span {
+    font-family: Calibri;
+    color:  #ffb540;
+}
+
+div:nth-child(7) > figure {
     position: relative;
     top: 2px;
     left: 34px;
@@ -352,21 +360,23 @@ figcaption{
     font-weight: 500;
 }
 
-.hoof-img{
+div:nth-child(7) > figure > img {
     position: relative;
     left: -4px;
     top: -17px;
     border-radius: 159px;
-    border: 7px #ffb540 solid;
+    border: 8px #ffb540 solid;
 }
 
-.hoof-span{
-    font-family: Calibri;
-    color:  #ffb540;
+div:nth-child(7) > figure > figcaption {
+    position: relative;
+    left: 35px;
+    bottom: 4px;
 }
 
-.meat-team-second{
-    left: 591px;
+
+div:nth-child(8) {
+    left: 540px;
     top: -738px;
     width: 420px;
     float: none;
@@ -375,7 +385,7 @@ figcaption{
     overflow: hidden;
 }
 
-.nib{
+div:nth-child(8) > p {
     font-size: 23px;
     font-weight: 400;
     width: fit-content;
@@ -383,10 +393,10 @@ figcaption{
     font-family: Calibri;
     position: relative;
     top: -19px;
-    left: 106px;
+    left: 156px;
 }
 
-.nib-fig-cap{
+div:nth-child(8) > figure {
     top: 1px;
     position: relative;
     font-size: 16px;
@@ -395,18 +405,24 @@ figcaption{
     font-weight: 500;
 }
 
-.nib-img{
+div:nth-child(8) > figure > img {
     left: 10px;
     top: -15px;
     position: relative;
     border-radius: 239px;
-    border: 7px #ffb540 solid;
+    border: 8px #ffb540 solid;
+}
+
+div:nth-child(8) > figure > figcaption {
+    position: relative;
+    left: 51px;
+    bottom: 4px;
 }
 
 
-.meat-team-third{
+div:nth-child(9) {
     top: -1216px;
-    left: -204px;
+    left: -410px;
     width: 420px;
     float: right;
     height: 462px;
@@ -414,7 +430,7 @@ figcaption{
     overflow: hidden;
 }
 
-.squawk{
+div:nth-child(9) > p {
     font-size: 23px;
     font-weight: 400;
     width: fit-content;
@@ -425,7 +441,7 @@ figcaption{
     position: relative;
 }
 
-.squawk-fig-cap{
+div:nth-child(9) > figure {
     position: relative;
     font-size: 16px;
     top: -6px;
@@ -434,23 +450,30 @@ figcaption{
     font-weight: 500;
 }
 
-.squawk-img{
-    top: -21px;
+div:nth-child(9) > figure > img {
+    top: -14px;
     position: relative;
     border-radius: 210px;
-    border: 7px  #ffb540 solid;
+    border: 8px #ffb540 solid;
+    right: 38px;
 }
 
 
-.send-message-container{
-    top: -1204px;
+div:nth-child(9) > figure > figcaption {
+    position: relative;
+    bottom: 4px;
+}
+
+
+.send-message-container {
+    bottom: 722px;
     left: 150px;
-    width: 1300px;
+    width: 100%;
     padding: 20px;
     height: 440px;
 }
 
-.send-message{
+div:nth-child(10) > p {
     position: relative;
     font-family: ST;
     top: -25px;
@@ -463,26 +486,26 @@ figcaption{
     width: fit-content;
 }
 
-form{
+form {
     height: 331px;
 }
 
-form > *{
+form > * {
     position: relative;
 }
 
-form > label{
+form > label {
     font-family: ST;
     color:  #ffb540;
     font-size: 25px;
     font-weight: 400;
 }
 
-.name-label{
+form > label:first-child {
     left: 19px;
 }
 
-.name-input{
+form > input:nth-child(2) {
     border-right: 0px;
     border-bottom: 0px;
     border-top-color: #ededec;
@@ -498,12 +521,12 @@ form > label{
     color: #fb9c06;
 }
 
-.email-label{
+form > label:nth-child(3) {
     top: 75px;
     right: 1134px;
 }
 
-.email-input{
+form > input:nth-child(4) {
     border-right: 0px;
     border-bottom: 0px;
     border-top-color: #ededec;
@@ -519,12 +542,12 @@ form > label{
     color: #fb9c06;
 }
 
-.message-label{
+form > label:nth-child(5) {
     top: 110px;
     right: 1055px;
 }
 
-.message-input{
+form > textarea:nth-child(6) {
     border-right: 0px;
     border-bottom: 0px;
     border-top-color: #ededec;
@@ -541,10 +564,10 @@ form > label{
     color: #fb9c06;
 }
 
-.submit{
+button {
     float: right;
     top: 187px;
-    left: -109px;
+    left: -236px;
     background-color: #fb9c06;
     width: 176px;
     height: 49px;
@@ -554,7 +577,7 @@ form > label{
     border-right: 1px solid #fdd18b;
 }
 
-.button-text{
+button > span {
     font-family: ST;
     color: #fff9ef;
     font-size: 32px;
@@ -564,7 +587,7 @@ form > label{
     font-weight: 100;
 }
 
-footer{
+footer {
     background: #fb9c06;
     padding: 10px;
     position: relative;
@@ -575,7 +598,7 @@ footer{
     border-bottom: 3px solid #cc830f;
 }
 
-.copyright-text{
+.copyright-text {
     font-family: ST;
     color: #fff9ef;
     font-size: 34px;
